@@ -1,0 +1,177 @@
+html {
+  font-size: 1.2rem;
+}
+
+#nomDuSite {
+
+	font-size: 1em;
+}
+
+section {
+	width: 90%;
+	margin : auto;
+	margin-top: 1%;
+}
+
+h3 {
+	margin-bottom: 3%;
+}
+
+.badge {
+	font-size: 1rem;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+.badgeReward {
+	padding: 10px;
+	font-size: 0.8rem;
+}
+
+.sep {
+
+	margin-bottom: 2%;
+}
+
+/* FELLOWS */
+
+.card {
+	height: 100%;
+}
+
+.card-img-top {
+	opacity: 0.7;
+}
+
+.card-img-top:hover {
+	opacity: 1;
+}
+
+.ajust {
+	position: relative;
+}
+
+.rewards {
+	position: absolute;
+	top: 5%;
+	left : 50%;
+	transform: translate(-50%, -10%);
+}
+
+.rewards span {
+	color: orange;
+}
+
+
+.nameFellows {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#dead {
+
+	font-size: 2rem;
+	position: absolute;
+	top : 20%;
+	left : 50%;
+	transform: translate(-50%);
+}
+
+.card:hover .rewards{
+	display: none;
+}
+
+.card:hover #dead {
+	display: none;
+}
+
+#reward img{
+	width: 200px;
+	margin-left: 3%;
+}
+
+/* HUNTERS */
+
+.likeBtn {
+	width: 100px;
+}
+
+.media-body p {
+	margin-bottom: 0;
+}
+
+/* RING */
+
+table {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+#ring table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#ring th, td {
+	width: 50%;
+	padding: 5px 0 5px 5px;
+}
+
+#ring th {
+	color: white;
+	background-color: #595959;
+}
+
+.ligneSpe {
+	background-color: #cccccc;
+}
+
+/* JOIN */
+
+#teteDeGolum {
+	width: 150px;
+	height: 150px;
+	margin-left: 3%;
+
+}
+
+#imageJoin {
+	width: 200px;
+	margin-right: 3%;
+}
+
+#divJoin {
+	margin-bottom: 5rem;
+}
+
+/* FOOTER */
+
+#foot {
+	background-color: #343a40;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+footer ul {
+	list-style-type: none;
+	margin-top: 1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgba(255,255,255,.75);
+}
+
+#foot3 {
+	align-self: center;
+	margin-left: auto;
+	margin-right: 15%;
+}
