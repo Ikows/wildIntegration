@@ -127,6 +127,12 @@ h3{
 	background-color: black;
 }
 
+.cardBodyFellows p {
+	font-size: 3rem;
+	color: #e0e0e0;
+	font-family: "partybusiness";
+}
+
 .card-img-top {
 	opacity: 0.8;
 	filter: brightness(50%);
@@ -168,9 +174,8 @@ h3{
 	font-family: "partybusiness"
 }
 
-.cardTextFellows {
-	color: #939393;
-}
+
+
 
 #dead {
 
@@ -261,7 +266,7 @@ h3{
 	border-radius: 5px;
 }
 
-.card-body {
+.cardBodyRing {
 	background-color: #e0e0e0;
 	font-family: "partybusiness";
 	font-size: 2rem;
@@ -372,6 +377,8 @@ footer a {
 #logoFooter {
 	margin-top: 0;
 }
+
+
 
 /* RESPONSIVE D*/
 @media (max-width: 1550px) {
